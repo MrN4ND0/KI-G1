@@ -1,6 +1,7 @@
 #stolen from nnfs
 
 import numpy as np
+import matplotlib.pyplot as plt
 
 np.random.seed(0)
 
@@ -16,5 +17,9 @@ def spiral_data(points, classes):
     return X, y
 
 X, y = spiral_data(100, 3)
-print(X)
-print(y)
+
+#print(X)
+#print(y)
+
+plt.scatter(X[:, 0], X[:, 1], c=y,s=40,cmap='brg')
+plt.show()

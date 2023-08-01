@@ -208,3 +208,54 @@ dense2.forward(activation1.output)
 activation2.forward(dense2.output)
 
 print("softmax: \n" + str(activation2.output[:5]))
+
+#loss in raw py
+import math
+ 
+softmax_output = [0.7, 0.1, 0.2]
+target_output = [1, 0, 0]
+
+loss = -(math.log(softmax_output[0])*target_output[0] + 
+        math.log(softmax_output[1])*target_output[1] +
+        math.log(softmax_output[2])*target_output[2])
+
+print("loss of softmax: \n" + str(loss))
+
+#loss but cooler with numpy and batch of inputs (catergorical crossentropy)
+softmax_output = np.array([[0.7, 0.1, 0.2],
+                           [0.1, 0.5, 0.4], 
+                           [0.02, 0.9, 0.08]])
+target_class = [0, 1, 1]
+
+neg_log = -np.log(softmax_output[range(len(softmax_output)), target_class])
+
+print("loss but cooler: \n" + str(neg_log))
+
+avg_loss = np.mean(neg_log) #WATCHOUT log 0 = inf --> fucks up the mean; clip the val of 0 to sth very small but not 0
+
+print("average loss: \n" + str(avg_loss))
+
+#to class
+class Loss: 
+    def calculate(self, output, y):
+        sample_losses = self.forward(output, y)
+        data_loss = np.mean(sample_losses)
+        return data_loss
+    
+class Loss_CategoricalCrossentropy(Loss):
+    def forward(self, y_pred, y_true):
+        samples = len(y_pred)
+        y_pred_clipped = np.clip(y_pred, 1e-7, 1-1e-7)
+        
+        if len(y_true.shape) == 1:
+            correct_confidences = y_pred_clipped[range(samples), y_true]
+        elif len(y_true.shape) == 2: 
+            correct_confidences = np.sum(y_pred_clipped*y_true, axis=1)
+            
+        negative_log_likelihood = -np.log(correct_confidences)
+        return negative_log_likelihood
+    
+loss_function = Loss_CategoricalCrossentropy()
+loss = loss_function.calculate(activation2.output, y)
+
+print("Loss (class); \n" + str(loss))
