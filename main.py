@@ -27,6 +27,8 @@ weights = [[0.2, 0.8, -0.5, 1.0],
 
 biases = [2.0, 3.0, 0.5]
 
+#loop for first neurons
+
 layer_outputs = []
 for neuron_weights, neuron_bias in zip(weights,biases):
     neuron_output = 0
@@ -44,6 +46,9 @@ weights = [[0.2, 0.8, -0.5, 1.0],
            [-0.26, -0.27, 0.17, 0.87]]
 
 biases = [2.0, 3.0, 0.5]
+
+
+#dot-product, using NumPy
 
 output_numpy = np.dot(weights, inputs) + biases #weights first input cause shape
 print ("numpy: \n" + str(output_numpy))
