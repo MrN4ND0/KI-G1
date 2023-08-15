@@ -11,23 +11,24 @@ A source reference is also included.
 ## Contents of the repository
 > ### Inhalte des Repository
 *****
-- [knn.py](https://github.com/MrN4ND0/KI-G1/blob/main/knn.py): _The main ANN driver. Simple optimizer included._
-- [testdatacreator.py](https://github.com/MrN4ND0/KI-G1/blob/main/testdatacreator.py): _Creator of nonlinear test data for the ANN._ 
-- [layers.py](https://github.com/MrN4ND0/KI-G1/blob/main/layers.py): _Source file for the ANN driver with the layer architecture._
-- [layers_from_scratch.py](https://github.com/MrN4ND0/KI-G1/blob/main/layers_from_scratch.py):
-- [activationfunctions.py](https://github.com/MrN4ND0/KI-G1/blob/main/activatonfunctions.py): _Source file for the ANN driver with the activation functions architecture._
-- [activationfunctions_from_scratch.py](https://github.com/MrN4ND0/KI-G1/blob/main/activationfunctions_from_scratch.py):
-- [losscalculator.py](https://github.com/MrN4ND0/KI-G1/blob/main/losscalculator.py): _Source file for the ANN driver with the loss calculator architecture._
-- [losscalculator_from_scratch.py](https://github.com/MrN4ND0/KI-G1/blob/main/lossclaculator_from_scratch.py):
+- [**knn.py**](https://github.com/MrN4ND0/KI-G1/blob/main/knn.py): _The main ANN driver. Simple optimizer included._
+- [**testdatacreator.py**](https://github.com/MrN4ND0/KI-G1/blob/main/testdatacreator.py): _Creator of nonlinear test data for the ANN._ 
+- [**layers.py**](https://github.com/MrN4ND0/KI-G1/blob/main/layers.py): _Source file for the ANN driver with the layer architecture._
+- [**layers_from_scratch.py**](https://github.com/MrN4ND0/KI-G1/blob/main/layers_from_scratch.py): _Example code how [layers.py](https://github.com/MrN4ND0/KI-G1/blob/main/layers.py) was created._
+- [**activationfunctions.py**](https://github.com/MrN4ND0/KI-G1/blob/main/activationfunctions.py): _Source file for the ANN driver with the activation functions architecture._
+- [**activationfunctions_from_scratch.py**](https://github.com/MrN4ND0/KI-G1/blob/main/activationfunctions_from_scratch.py): _Example code how [activationfunctions.py](https://github.com/MrN4ND0/KI-G1/blob/main/activatonfunctions.py) was created._
+- [**losscalculator.py**](https://github.com/MrN4ND0/KI-G1/blob/main/losscalculator.py): _Source file for the ANN driver with the loss calculator architecture._
+- [**losscalculator_from_scratch.py**](https://github.com/MrN4ND0/KI-G1/blob/main/losscalculator_form_scratch.py): _Example code how [losscalculator.py](https://github.com/MrN4ND0/KI-G1/blob/main/losscalculator.py) was created._
 
 ##Artifical neural network model of knn.py
 > ### Modell des künstlichen neuralen Netzwerks von knn.py
 *****
-![](https://raw.githubusercontent.com/MrN4ND0/KI-G1/main/knn_model21010103.drawio.png?token=GHSAT0AAAAAACFZS5V3QOMMIJXRBPT5QS6MZG22FVQ "knn.py model")
+[model_grafic](https://github.com/MrN4ND0/KI-G1/blob/main/knn_model21010103.drawio.png)
 
 ## Source reference
 > ### Quellenangabe
 *****
+work in progress...
 
 
 
