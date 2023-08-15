@@ -20,7 +20,7 @@ A source reference is also included.
 - [**losscalculator.py**](https://github.com/MrN4ND0/KI-G1/blob/main/losscalculator.py): _Source file for the ANN driver with the loss calculator architecture._
 - [**losscalculator_from_scratch.py**](https://github.com/MrN4ND0/KI-G1/blob/main/losscalculator_form_scratch.py): _Example code how [losscalculator.py](https://github.com/MrN4ND0/KI-G1/blob/main/losscalculator.py) was created._
 
-##Artifical neural network model of knn.py
+## Artifical neural network model of knn.py
 > ### Modell des künstlichen neuralen Netzwerks von knn.py
 *****
 [model_grafic](https://github.com/MrN4ND0/KI-G1/blob/main/knn_model21010103.drawio.png)
