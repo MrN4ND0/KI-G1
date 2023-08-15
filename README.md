@@ -1,4 +1,4 @@
-# **Algorithmic foundations of artificial intelligence **
+# **Algorithmic foundations of artificial intelligence**
 > ### Algorithmische Grundlagen der künstlichen Intelligenz
 *****
 This repository serves as a digital extension of the scientific poster on the topic: _Algorithmic foundations of artificial intelligence_.
