@@ -28,7 +28,21 @@ A source reference is also included.
 ## Source reference
 > ### Quellenangabe
 *****
-work in progress...
+##### Machine learning, artifical neural networks basics and history (_Grundlagen des Maschinelles Lernen, künstliche neuronale Netze und Geschichte_):
+- [kuenstliche-intelligenz-in-a-nutshell.at](https://kuenstliche-intelligenz-in-a-nutshell.at/2020/04/02/Parameter-Weight-Initialiserung-Standardabweichung-Kaiming.html)
+- [consilica.de](https://consilica.de/die-optimale-ki-konfiguration-ist-eine-frage-der-perspektive/)
+- [datasolut.com](https://datasolut.com/neuronale-netzwerke-einfuehrung/#:~:text=K%C3%BCnstliche%20Neuronale%20Netze%20(KNN)%20sind,uns%20Menschen%20fast%20unm%C3%B6glich%20w%C3%A4ren)
+- [towardsdatascience.com](https://towardsdatascience.com/roc-curve-in-machine-learning-fea29b14d133)
+##### Implementation in Python (_Implementierung in Python_):
+- [nnfs.io](https://nnfs.io/)
+- [www.freecodecamp.org](https://www.freecodecamp.org/news/how-to-implement-computer-vision-with-deep-learning-and-tensorflow/)
+- [github.com/nicknochnack](https://github.com/nicknochnack/ImageClassification)
+##### Parameters and classifier (_Parameter und Klassifikator_):
+- [www.clickworker.de](https://www.clickworker.de/kunden-blog/geschichte-des-maschinellen-lernens/)
+- [datascientest.com](https://datascientest.com/de/kuenstliche-intelligenz#:~:text=Im%20Jahr%201959%20erfand%20Arthur,jedoch%20an%20der%20KI%20gezweifelt)
+- [www.ibm.com](https://www.ibm.com/de-de/topics/machine-learning)
+- [datasolut.com](https://datasolut.com/machine-learning-vs-deep-learning/)
+- [www.freecodecamp.org](https://www.freecodecamp.org/news/how-to-implement-computer-vision-with-deep-learning-and-tensorflow/)
 
 
 
