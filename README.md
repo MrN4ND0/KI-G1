@@ -23,7 +23,7 @@ A source reference is also included.
 ## Artifical neural network model of knn.py
 > ### Modell des künstlichen neuralen Netzwerks von knn.py
 *****
-[model_grafic](https://github.com/MrN4ND0/KI-G1/blob/main/knn_model21010103.drawio.png)
+[Klick me to see the model in a cool graphic.](https://github.com/MrN4ND0/KI-G1/blob/main/knn_model21010103.drawio.png)
 
 ## Source reference
 > ### Quellenangabe
